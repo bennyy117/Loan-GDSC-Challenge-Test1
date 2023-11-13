@@ -1,0 +1,977 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+html {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* cho  Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* cho Firefox */
+}
+html::-webkit-scrollbar {
+    display: none;
+    /* cho Chrome, Safari, and Opera */
+}
+
+body {
+    margin: 0;
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav */
+nav {
+    padding: 50px 70px 0px 90px;
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+nav ul {
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:before {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* intro part */
+.intro {
+    position: relative;
+    z-index: 3;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url('../img/bg-curvy-desktop.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 240px;
+    letter-spacing: 1px;
+}
+
+.imgintro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boldintro {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#textintro {
+    padding-left: 475px;
+    padding-right: 475px;
+}
+
+/* button */
+.btn {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    padding: 15px 90px 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-image: none;
+    background-color: hsl(176, 68%, 64%);
+}
+
+.object {
+    width: 100px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+
+.blockOfElements1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 280px;
+    margin-right: 280px;
+    gap: 80px;
+}
+
+.blockOfElements2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 280px;
+    margin-right: 250px;
+    margin-top: 80px;
+    gap: 80px;
+}
+
+.element {
+    text-align: center;
+}
+
+#bolde1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#wordsElement1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wordsElement2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wordsElement3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#wordsElement4 {
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+/* main part 2 */
+.FyloWorks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 160px;
+    margin-bottom: 140px;
+    gap: 70px;
+}
+
+.FyloWorksTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding-right: 70px;
+}
+
+#FyloWorksA {
+    text-decoration: none;
+    display: inline-block;
+    color: hsl(176, 68%, 64%);
+    /*hex: #65E2D9*/
+    padding-bottom: 3px;
+    border-bottom: hsl(176, 68%, 64%) solid 1px;
+}
+
+#FyloWorksA #FyloWorksImgA {
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+
+#FyloWorksA:hover {
+    color: white;
+    border-bottom: white solid 1px;
+    filter: grayscale(100%) brightness(150%);
+}
+
+/* testimonials */
+#quotes {
+    position: relative;
+    z-index: 0;
+    left: 120px;
+    top: 15px;
+}
+
+.testimonials {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 127px;
+    margin-right: 127px;
+    margin-bottom: 0px;
+    gap: 40px;
+}
+
+.testi1 {
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px 5px 5px 5px;
+    padding: 30px 35px 15px 35px;
+    box-shadow: 10px 5px hsla(219, 30%, 18%, 0.245);
+}
+
+.testi2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+#testiImg {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.testiText {
+    font-size: 10px;
+    padding-left: 10px;
+    line-height: 6px;
+    position: relative;
+    top: -5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#testibold {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* footer */
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 200px 80px 90px 130px;
+}
+
+.footerExLogo {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    margin-top: 30px;
+}
+
+.location {
+    width: 350px;
+    margin-right: 30px;
+}
+
+#locationText {
+    position: relative;
+    top: -27px;
+    left: 35px;
+    font-size: 16px;
+}
+
+.contact {
+    margin-right: 70px;
+}
+
+#ctelement1 {
+    margin-bottom: 15px;
+}
+
+#contactText {
+    position: relative;
+    top: -5px;
+    left: 25px;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 40px;
+    position: relative;
+    top: -13px;
+}
+
+#feA {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+#feA:hover {
+    font-weight: 700;
+}
+
+.social-networking {
+    display: flex;
+    gap: 15px;
+}
+
+.feedback {
+    background-color: hsl(217, 28%, 15%);
+    margin: auto;
+    padding: 20px 60px 40px 60px;
+    width: 700px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    bottom: -140px;
+    text-align: center;
+}
+
+.boldfeedback {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#fbText {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+input {
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    background-image: white;
+    border: none;
+    padding: 15px 32px 15px 32px;
+    width: 400px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.btnform {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border: none;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btnform:hover {
+    background-image: none;
+    background-color: hsl(176, 68%, 64%);
+}
+
+#invalidemail {
+    color: hsl(0, 100%, 63%);
+    text-align: left;
+    padding-left: 37px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+@media all and (max-width: 1280px) {
+    #boldintro {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #textintro {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+/* tablet */
+@media all and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* cho  Internet Explorer, Edge */
+        scrollbar-width: none;
+        /* cho Firefox */
+    }
+    html::-webkit-scrollbar {
+        display: none;
+        /* cho Chrome, Safari, and Opera */
+    }
+
+    .blockOfElements1 {
+        align-items: start;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .blockOfElements2 {
+        align-items: start;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .imgintro {
+        width: 500px;
+    }
+
+    #boldintro {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #textintro {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .FyloWorksTitle {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 25px;
+        text-align: center;
+    }
+
+    .FyloWorks {
+        display: block;
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #FyloWorksImg {
+        width: 600px;
+    }
+
+    #FyloWorksTextInside {
+        text-align: left;
+        margin-left: 80px;
+        margin-right: 100px;
+    }
+
+    #FyloWorksA {
+        position: absolute;
+        left: 90px;
+    }
+
+    /* testimonials */
+    #quotes {
+        width: 30px;
+        top: 7px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    /* footer */
+    footer {
+        padding: 200px 30px 90px 30px;
+    }
+
+    .location {
+        width: 200px;
+        margin-right: 10px;
+    }
+
+    .contact {
+        margin-right: 10px;
+    }
+
+    #contactText {
+        left: 10px;
+        text-decoration: none;
+    }
+
+    .feedback {
+        width: 550px;
+    }
+
+    input {
+        margin-left: 20px;
+    }
+
+    .btnform {
+        padding: 15px 165px 15px 165px;
+    }
+
+    #invalidemail {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    html {
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* cho  Internet Explorer, Edge */
+        scrollbar-width: none;
+        /* cho Firefox */
+    }
+    html::-webkit-scrollbar {
+        display: none;
+        /* cho Chrome, Safari, and Opera */
+    }
+
+    nav ul li a {
+        padding: 20px 10px;
+    }
+
+    .FyloWorksTitle {
+        font-size: 30px;
+    }
+
+    #FyloWorksImg {
+        width: 500px;
+    }
+
+    #FyloWorksTextInside {
+        margin-left: 35px;
+        margin-right: 40px;
+    }
+
+    #FyloWorksA {
+        left: 45px;
+    }
+
+    /* footer */
+    footer {
+        padding: 200px 0px 0px 100px;
+    }
+
+    .footerExLogo {
+        flex-direction: column;
+    }
+
+    .location {
+        width: 280px;
+        margin-right: 30px;
+    }
+
+    .contact {
+        margin-right: 70px;
+    }
+
+    #contactText {
+        left: 12px;
+        text-decoration: none;
+    }
+
+    .features {
+        margin-top: 70px;
+    }
+
+    .social-networking {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        position: relative;
+        left: 140px;
+    }
+
+    .feedback {
+        padding: 20px 20px 40px 20px;
+        width: 440px;
+    }
+
+    .boldfeedback {
+        font-size: 20px;
+    }
+
+    #fbText {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    input {
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .btnform {
+        padding: 15px 117px 15px 117px;
+    }
+}
+
+/* mobile device */
+
+@media all and (max-width: 414px) {
+    html {
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* cho  Internet Explorer, Edge */
+        scrollbar-width: none;
+        /* cho Firefox */
+    }
+    html::-webkit-scrollbar {
+        display: none;
+        /* cho Chrome, Safari, and Opera */
+    }
+
+    /* nav */
+    nav {
+        padding: 40px 20px 0px 30px;
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    nav ul li a {
+        padding: 15px 3px 3px 3px;
+    }
+
+    .intro {
+        padding: 90px 20px 240px 20px;
+    }
+
+    #boldintro {
+        font-size: 30px;
+    }
+
+    .imgintro {
+        width: 300px;
+    }
+
+    .blockOfElements1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blockOfElements2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #wordsElement3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #wordsElement4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .FyloWorksTitle {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+
+    .FyloWorks {
+        display: block;
+        width: 414px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #FyloWorksImg {
+        width: 300px;
+    }
+
+    #FyloWorksTextInside {
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 40px;
+    }
+
+    #FyloWorksA {
+        left: 35px;
+    }
+
+    /* testimonials */
+    #quotes {
+        width: 30px;
+        position: relative;
+        z-index: 0;
+        left: 27px;
+        top: 7px;
+    }
+
+    .testimonials {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        gap: 40px;
+    }
+
+    /* footer */
+    footer {
+        padding: 200px 0px 0px 30px;
+    }
+
+    #contactText {
+        text-decoration: none;
+    }
+
+    .social-networking {
+        left: 120px;
+    }
+
+    .feedback {
+        width: 270px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .btnform {
+        padding: 15px 68px 15px 68px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    html {
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* cho  Internet Explorer, Edge */
+        scrollbar-width: none;
+        /* cho Firefox */
+    }
+    html::-webkit-scrollbar {
+        display: none;
+        /* cho Chrome, Safari, and Opera */
+    }
+
+    /* nav */
+    nav {
+        padding: 40px 10px 0px 20px;
+    }
+
+    #logo {
+        width: 130px;
+    }
+
+    nav ul li a {
+        padding: 10px 5px 5px 5px;
+    }
+
+    .blockOfElements1 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blockOfElements2 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    .intro {
+        background-image: url('../img/bgintromobile.png');
+    }
+
+    #boldintro {
+        font-size: 24px;
+    }
+
+    #textintro {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #wordsElement1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #wordsElement2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #wordsElement3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #wordsElement4 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .FyloWorksTitle {
+        margin-right: 25px;
+        text-align: center;
+    }
+
+    .FyloWorks {
+        width: 375px;
+    }
+
+    #FyloWorksTextInside {
+        margin-left: 10px;
+    }
+
+    #FyloWorksA {
+        left: 20px;
+    }
+
+    /* footer */
+    footer {
+        padding: 200px 0px 0px 30px;
+    }
+
+    .footerExLogo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .location {
+        width: 280px;
+    }
+
+    #contactText {
+        left: 12px;
+        text-decoration: none;
+    }
+
+    .features {
+        margin-top: 70px;
+    }
+
+    .social-networking {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        position: relative;
+        left: 100px;
+    }
+
+    .feedback {
+        padding: 20px 20px 40px 20px;
+        width: 280px;
+    }
+
+    .boldfeedback {
+        font-size: 20px;
+    }
+
+    #fbText {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    input {
+        margin-right: 0px;
+    }
+
+    .btnform {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 320px) {
+    html {
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        /* cho  Internet Explorer, Edge */
+        scrollbar-width: none;
+        /* cho Firefox */
+    }
+    html::-webkit-scrollbar {
+        display: none;
+        /* cho Chrome, Safari, and Opera */
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    nav ul li a {
+        padding: 10px 3px 3px 3px;
+    }
+
+    .imgintro {
+        width: 280px;
+    }
+
+    .intro {
+        background-size: 320px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .FyloWorks {
+        width: 320px;
+    }
+
+    #FyloWorksImg {
+        width: 280px;
+    }
+
+    #FyloWorksA {
+        left: 20px;
+    }
+
+    /* footer */
+    .location {
+        width: 240px;
+    }
+
+    #contactText {
+        text-decoration: none;
+    }
+
+    .social-networking {
+        left: 70px;
+    }
+
+    .feedback {
+        width: 230px;
+    }
+
+    input {
+        width: 167px;
+    }
+
+    .btnform {
+        padding: 15px 50px 15px 50px;
+    }
+}
