@@ -403,18 +403,6 @@ input {
 }
 /* tablet */
 @media all and (max-width: 768px) {
-    html {
-        overflow-x: hidden;
-        -ms-overflow-style: none;
-        /* cho  Internet Explorer, Edge */
-        scrollbar-width: none;
-        /* cho Firefox */
-    }
-    html::-webkit-scrollbar {
-        display: none;
-        /* cho Chrome, Safari, and Opera */
-    }
-
     .blockOfElements1 {
         align-items: start;
         flex-direction: column;
@@ -531,18 +519,6 @@ input {
 }
 
 @media all and (max-width: 600px) {
-    html {
-        overflow-x: hidden;
-        -ms-overflow-style: none;
-        /* cho  Internet Explorer, Edge */
-        scrollbar-width: none;
-        /* cho Firefox */
-    }
-    html::-webkit-scrollbar {
-        display: none;
-        /* cho Chrome, Safari, and Opera */
-    }
-
     nav ul li a {
         padding: 20px 10px;
     }
@@ -626,18 +602,6 @@ input {
 /* mobile device */
 
 @media all and (max-width: 414px) {
-    html {
-        overflow-x: hidden;
-        -ms-overflow-style: none;
-        /* cho  Internet Explorer, Edge */
-        scrollbar-width: none;
-        /* cho Firefox */
-    }
-    html::-webkit-scrollbar {
-        display: none;
-        /* cho Chrome, Safari, and Opera */
-    }
-
     /* nav */
     nav {
         padding: 40px 20px 0px 30px;
@@ -761,18 +725,6 @@ input {
 }
 
 @media all and (max-width: 375px) {
-    html {
-        overflow-x: hidden;
-        -ms-overflow-style: none;
-        /* cho  Internet Explorer, Edge */
-        scrollbar-width: none;
-        /* cho Firefox */
-    }
-    html::-webkit-scrollbar {
-        display: none;
-        /* cho Chrome, Safari, and Opera */
-    }
-
     /* nav */
     nav {
         padding: 40px 10px 0px 20px;
@@ -908,18 +860,6 @@ input {
 }
 
 @media all and (max-width: 320px) {
-    html {
-        overflow-x: hidden;
-        -ms-overflow-style: none;
-        /* cho  Internet Explorer, Edge */
-        scrollbar-width: none;
-        /* cho Firefox */
-    }
-    html::-webkit-scrollbar {
-        display: none;
-        /* cho Chrome, Safari, and Opera */
-    }
-
     #logo {
         width: 120px;
     }
